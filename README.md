@@ -8,4 +8,4 @@ Bash
 Linux
 Jenkins
 CI/CD
-
+devops tools are  very use ful for future technology u can easily automate the tasks
