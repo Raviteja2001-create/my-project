@@ -1,0 +1,14 @@
+# Terraform working directory (providers, plugins, cache)
+.terraform/
+
+# Terraform state files (must NEVER be committed)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive variable values
+terraform.tfvars
+
+# SSH / key files (security)
+password file
+password file.pub
+
