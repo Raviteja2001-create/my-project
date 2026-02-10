@@ -7,7 +7,7 @@ name: Terraform pipeline
 on:
   push:
     branches:
-      - main
+      - feature
 
 jobs:
   ec2_job:
