@@ -47,7 +47,7 @@ data "aws_ami" "latest_amazon_linux_2" {
 
 resource "aws_key_pair" "ssh-key" {
     key_name = "server-key"
-    public_key = file(var.public_key_location)
+    public_key = file("${path.module}/${var.public_key_location}")
 
 }
 
