@@ -37,8 +37,7 @@ jobs:
       - name: Read main.tf
         run: cat main.tf
 
-      - name: Read outputs.tf
-        run: cat outputs.tf
+      
 
       - name: Read providers.tf
         run: cat providers.tf
