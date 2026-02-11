@@ -30,7 +30,4 @@ image_name = var.image_name
   
 }
 
-output "subnet_id" {
-  value = module.my_app_subnet.subnet_id
-}
 
