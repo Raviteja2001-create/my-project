@@ -45,7 +45,7 @@ jobs:
       - name: Read variables.tf
         run: cat variables.tf
 
-      - name: Terraform Pl
+      - name: Terraform Plan
         run: terraform plan
 
       - name: Terraform Apply
